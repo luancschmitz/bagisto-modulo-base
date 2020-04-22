@@ -1,0 +1,1 @@
+# bagisto-modulo-base
