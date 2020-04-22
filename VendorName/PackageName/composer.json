@@ -1,0 +1,26 @@
+{
+    "name": "vendor_name/package_name",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Luan Carlos Schmitz",
+            "email": "email@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VendorName\\PackageName\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VendorName\\PackageName\\Providers\\PackageNameServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "stable"
+}
