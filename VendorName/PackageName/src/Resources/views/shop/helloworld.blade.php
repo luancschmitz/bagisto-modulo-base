@@ -6,4 +6,5 @@
 
 @section('content-wrapper')
     <h1>Hello World</h1>
+    <h2>{{$myFirstField}}</h2>
 @stop

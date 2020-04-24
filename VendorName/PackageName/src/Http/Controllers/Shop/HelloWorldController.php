@@ -7,6 +7,7 @@ class HelloWorldController extends Controller
 {
     public function index()
     {
-        return view('helloworld::shop.helloworld');
+        $myFirstField  = core()->getConfigData('vendorname_menu.settings.general_config.myFirstField');
+        return view('helloworld::shop.helloworld', compact('myFirstField'));
     }
 }
